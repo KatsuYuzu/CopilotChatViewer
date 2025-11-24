@@ -1,0 +1,327 @@
+﻿{
+  "requesterUsername": "KatsuYuzu",
+  "requesterAvatarIconUri": {
+    "$mid": 1,
+    "path": "/u/205146343",
+    "scheme": "https",
+    "authority": "avatars.githubusercontent.com",
+    "query": "v=4"
+  },
+  "responderUsername": "GitHub Copilot",
+  "responderAvatarIconUri": {
+    "id": "copilot"
+  },
+  "initialLocation": "panel",
+  "requests": [
+    {
+      "requestId": "request_8541956a-279c-4992-a461-25314952afde",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 4
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 5
+            },
+            "text": "おはよう",
+            "kind": "text"
+          }
+        ],
+        "text": "おはよう"
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "おはようございます。ご質問やご要望があればどうぞ。",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "uris": {}
+        }
+      ],
+      "responseId": "response_f58054b6-f732-4050-908d-b16d2fb99f24",
+      "result": {
+        "timings": {
+          "firstProgress": 645,
+          "totalElapsed": 646
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "おはようございます。ご質問やご要望があればどうぞ。",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "6fcfa399-bbef-4d70-b67a-64a8620c7fd7"
+            }
+          ],
+          "modelMessageId": "24bb8c49-235d-4c57-8cfc-0439debf55bf",
+          "responseId": "d8429f7f-5eeb-4aac-9786-4d76fe93daa0",
+          "sessionId": "5d667596-8fae-4e54-ad07-68145894ba8e",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Copilot に質問します",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "プログラミングに関する一般的な質問をしたり、特殊な専門知識を持ち、アクションを実行できる次の参加者とチャットしたりできます。",
+          "helpTextVariablesPrefix": "また、次の変数を使用して追加のコンテンツを提供することで、質問の理解に役立てることもできます。",
+          "helpTextPostfix": {
+            "value": "すばらしい会話をするには、私が本当のプログラマーであるかのように質問してください。\n\n* 話したい**コードを見せる:** ファイルを開いて最も重要な行を選択してください。\n* **改善を加える:** フォローアップの質問をしたり、説明を追加したり、間違いを知らせたりしてください。\n* **提案されたコードを確認する:** その上で問題や改善点を教えてください。それに基づいて繰り返し、改善します。\n\n[インライン チャット セッションを開始](command:inlineChat.start)して、エディターの選択範囲について質問することもできます。\n\n[GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) の詳細については、[Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview) を参照してください。または、[Copilot チュートリアル](コマンド: github.copilot.open.walkthrough) を参照してください。",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "KatsuYuzu",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/205146343",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1753662929876,
+      "modelId": "github.copilot-chat/gpt-4.1"
+    },
+    {
+      "requestId": "request_b575060d-8dac-4b05-a19e-2b6d9449268e",
+      "message": {
+        "parts": [
+          {
+            "range": {
+              "start": 0,
+              "endExclusive": 4
+            },
+            "editorRange": {
+              "startLineNumber": 1,
+              "startColumn": 1,
+              "endLineNumber": 1,
+              "endColumn": 5
+            },
+            "text": "おやすみ",
+            "kind": "text"
+          }
+        ],
+        "text": "おやすみ"
+      },
+      "variableData": {
+        "variables": []
+      },
+      "response": [
+        {
+          "value": "おやすみなさい。ゆっくり休んでください。",
+          "supportThemeIcons": false,
+          "supportHtml": false,
+          "uris": {}
+        }
+      ],
+      "responseId": "response_48c0fb1f-be52-470f-9596-068ac41d96c6",
+      "result": {
+        "timings": {
+          "firstProgress": 690,
+          "totalElapsed": 693
+        },
+        "metadata": {
+          "codeBlocks": [],
+          "toolCallRounds": [
+            {
+              "response": "おやすみなさい。ゆっくり休んでください。",
+              "toolCalls": [],
+              "toolInputRetry": 0,
+              "id": "17153233-f4cc-43d9-b6ba-4bf27c4a7360"
+            }
+          ],
+          "modelMessageId": "294ea5ec-120f-485a-8692-b822d79b0254",
+          "responseId": "50233733-8a80-42d0-8b32-7af121c6e8bb",
+          "sessionId": "5d667596-8fae-4e54-ad07-68145894ba8e",
+          "agentId": "github.copilot.default"
+        }
+      },
+      "followups": [],
+      "isCanceled": false,
+      "agent": {
+        "extensionId": {
+          "value": "GitHub.copilot-chat",
+          "_lower": "github.copilot-chat"
+        },
+        "publisherDisplayName": "GitHub",
+        "extensionPublisherId": "GitHub",
+        "extensionDisplayName": "GitHub Copilot Chat",
+        "id": "github.copilot.default",
+        "description": "Copilot に質問します",
+        "metadata": {
+          "themeIcon": {
+            "id": "copilot"
+          },
+          "hasFollowups": false,
+          "helpTextPrefix": "プログラミングに関する一般的な質問をしたり、特殊な専門知識を持ち、アクションを実行できる次の参加者とチャットしたりできます。",
+          "helpTextVariablesPrefix": "また、次の変数を使用して追加のコンテンツを提供することで、質問の理解に役立てることもできます。",
+          "helpTextPostfix": {
+            "value": "すばらしい会話をするには、私が本当のプログラマーであるかのように質問してください。\n\n* 話したい**コードを見せる:** ファイルを開いて最も重要な行を選択してください。\n* **改善を加える:** フォローアップの質問をしたり、説明を追加したり、間違いを知らせたりしてください。\n* **提案されたコードを確認する:** その上で問題や改善点を教えてください。それに基づいて繰り返し、改善します。\n\n[インライン チャット セッションを開始](command:inlineChat.start)して、エディターの選択範囲について質問することもできます。\n\n[GitHub Copilot](https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted) の詳細については、[Visual Studio Code](https://code.visualstudio.com/docs/copilot/overview) を参照してください。または、[Copilot チュートリアル](コマンド: github.copilot.open.walkthrough) を参照してください。",
+            "isTrusted": {
+              "enabledCommands": [
+                "inlineChat.start",
+                "github.copilot.open.walkthrough"
+              ]
+            },
+            "supportThemeIcons": false,
+            "supportHtml": false,
+            "uris": {
+              "command:inlineChat.start": {
+                "$mid": 1,
+                "path": "inlineChat.start",
+                "scheme": "command"
+              },
+              "https://docs.github.com/copilot/using-github-copilot/getting-started-with-github-copilot?tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted": {
+                "$mid": 1,
+                "path": "/copilot/using-github-copilot/getting-started-with-github-copilot",
+                "scheme": "https",
+                "authority": "docs.github.com",
+                "query": "tool=vscode&utm_source=editor&utm_medium=chat-panel&utm_campaign=2024q3-em-MSFT-getstarted"
+              },
+              "https://code.visualstudio.com/docs/copilot/overview": {
+                "$mid": 1,
+                "path": "/docs/copilot/overview",
+                "scheme": "https",
+                "authority": "code.visualstudio.com"
+              }
+            }
+          },
+          "supportIssueReporting": false,
+          "requester": {
+            "name": "KatsuYuzu",
+            "icon": {
+              "$mid": 1,
+              "path": "/u/205146343",
+              "scheme": "https",
+              "authority": "avatars.githubusercontent.com",
+              "query": "v=4"
+            }
+          }
+        },
+        "name": "GitHubCopilot",
+        "fullName": "GitHub Copilot",
+        "isDefault": true,
+        "locations": [
+          "panel"
+        ],
+        "modes": [
+          "ask"
+        ],
+        "slashCommands": [],
+        "disambiguation": [
+          {
+            "category": "generate_code_sample",
+            "description": "The user wants to generate code snippets without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Write an example of computing a SHA256 hash."
+            ]
+          },
+          {
+            "category": "add_feature_to_file",
+            "description": "The user wants to change code in a file that is provided in their request, without referencing the contents of the current workspace. This category does not include generating entire projects.",
+            "examples": [
+              "Add a refresh button to the table widget."
+            ]
+          },
+          {
+            "category": "question_about_specific_files",
+            "description": "The user has a question about a specific file or code snippet that they have provided as part of their query, and the question does not require additional workspace context to answer.",
+            "examples": [
+              "What does this file do?"
+            ]
+          }
+        ]
+      },
+      "contentReferences": [],
+      "codeCitations": [],
+      "timestamp": 1753662932272,
+      "modelId": "github.copilot-chat/gpt-4.1"
+    }
+  ]
+}

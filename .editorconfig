@@ -1,0 +1,17 @@
+﻿root = true
+
+[*]
+charset = utf-8-bom
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{cs,xaml}]
+indent_size = 4
+
+# using ディレクティブの順序を設定
+dotnet_sort_system_directives_first = true
+
+[*.{json,yml,yaml,csproj}]
+indent_size = 2

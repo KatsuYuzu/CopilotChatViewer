@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36310.24
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopilotChatViewer", "src\CopilotChatViewer\CopilotChatViewer.csproj", "{B3213023-F664-2117-09FE-395AB3691864}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ソリューション項目", "ソリューション項目", "{2022CB0F-8BAF-F49E-0C48-8EF4C96EC109}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		.github\copilot-instructions.md = .github\copilot-instructions.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopilotChatParser", "src\CopilotChatParser\CopilotChatParser.csproj", "{44855650-951A-A677-4DB6-D7DBBBAF107C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CopilotChatParser.Tests", "src\CopilotChatParser.Tests\CopilotChatParser.Tests.csproj", "{B60AB7AF-02B9-859C-4811-237507FDDA98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3213023-F664-2117-09FE-395AB3691864}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3213023-F664-2117-09FE-395AB3691864}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3213023-F664-2117-09FE-395AB3691864}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3213023-F664-2117-09FE-395AB3691864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44855650-951A-A677-4DB6-D7DBBBAF107C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44855650-951A-A677-4DB6-D7DBBBAF107C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44855650-951A-A677-4DB6-D7DBBBAF107C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44855650-951A-A677-4DB6-D7DBBBAF107C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B60AB7AF-02B9-859C-4811-237507FDDA98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B60AB7AF-02B9-859C-4811-237507FDDA98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B60AB7AF-02B9-859C-4811-237507FDDA98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B60AB7AF-02B9-859C-4811-237507FDDA98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D342C08A-43AF-4874-8E96-B1C5298AF8BD}
+	EndGlobalSection
+EndGlobal
