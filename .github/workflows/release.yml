@@ -1,0 +1,56 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'  # v1.0.0 のようなタグがプッシュされたときに実行
+  workflow_dispatch:  # 手動実行を有効化
+    inputs:
+      tag:
+        description: 'リリースタグ名 (例: v1.0.0)'
+        required: true
+        type: string
+
+permissions:
+  contents: write  # リリースの作成に必要
+
+jobs:
+  build-and-release:
+    runs-on: windows-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '9.0.x'
+    
+    - name: Restore dependencies
+      run: dotnet restore CopilotChatViewer.sln
+    
+    - name: Build and Publish
+      run: |
+        dotnet publish src/CopilotChatViewer/CopilotChatViewer.csproj `
+          -c Release `
+          -r win-x64 `
+          --self-contained true `
+          -p:PublishSingleFile=true `
+          -p:IncludeNativeLibrariesForSelfExtract=true `
+          -o ./publish
+    
+    - name: Create ZIP archive
+      run: Compress-Archive -Path ./publish/* -DestinationPath CopilotChatViewer-${{ inputs.tag || github.ref_name }}-win-x64.zip
+    
+    - name: Create GitHub Release
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: ${{ inputs.tag || github.ref_name }}
+        files: |
+          CopilotChatViewer-${{ inputs.tag || github.ref_name }}-win-x64.zip
+        generate_release_notes: true
+        draft: false
+        prerelease: false
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
