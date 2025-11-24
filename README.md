@@ -2,6 +2,13 @@
 
 GitHub Copilotとのチャット履歴を「チャットアプリ風UI」で一覧表示・検索できます。
 
+## ダウンロード
+
+最新版は [Releases](https://github.com/KatsuYuzu/CopilotChatViewer/releases) からダウンロードできます。
+
+- Windows x64向けの単一実行ファイル（.NET 9ランタイム同梱）
+- インストール不要、ZIPを解凍して実行するだけ
+
 ## 利用シーン
 
 - AIとやりとりした内容を、あとから見返したい
@@ -46,11 +53,6 @@ GitHub Copilotとのチャット履歴を「チャットアプリ風UI」で一�
 マークダウンプレビューで下図のように閲覧できます。
 
 ![](.attachments/README/2025-07-29-09-18-55.png)
-
-## 動作環境
-
-- Windows 11
-- .NET 9（インストール不要、単一exeファイルで配布）
 
 ---
 
